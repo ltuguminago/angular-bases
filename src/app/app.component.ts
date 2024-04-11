@@ -5,6 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
+//clase
 export class AppComponent {
-  title = 'bases';
+
+  //definicion de propiedades
+  public title: string = 'bases';
+
 }
+
+
+
